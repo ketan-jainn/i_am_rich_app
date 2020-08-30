@@ -1,0 +1,31 @@
+name: i_am_rich_app
+description: A new Flutter application.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_launcher_icons: "^0.7.5"
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon.png"
+
+  cupertino_icons: ^0.1.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+flutter:
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+     - images/
